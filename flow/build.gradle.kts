@@ -25,7 +25,7 @@ mavenPublishing {
     coordinates(
         groupId = "io.github.taetae98coding",
         artifactId = "kotlinx-flow",
-        version = "1.0.1"
+        version = "1.0.2"
     )
 
     configure(KotlinMultiplatform())
