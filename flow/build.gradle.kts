@@ -31,8 +31,6 @@ mavenPublishing {
         version = "1.0.3"
     )
 
-    configure(KotlinMultiplatform())
-
     pom {
         name.set("Kotlinx-Flow")
         description.set("Flow Extension")
