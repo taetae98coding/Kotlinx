@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         mavenCentral()
         gradlePluginPortal()
@@ -14,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Kotlinx"
 
+include(":datetime")
 include(":flow")

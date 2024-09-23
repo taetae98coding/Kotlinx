@@ -7,7 +7,7 @@ kotlin {
     sourceSets {
         commonMain {
             dependencies {
-                implementation(libs.kotlinx.coroutines.core)
+                implementation(libs.kotlinx.datetime)
             }
         }
     }
@@ -16,13 +16,13 @@ kotlin {
 mavenPublishing {
     coordinates(
         groupId = "io.github.taetae98coding",
-        artifactId = "kotlinx-flow",
+        artifactId = "kotlinx-datetime",
         version = Build.LIBRARY_VERSION,
     )
 
     pom {
-        name.set("Kotlinx-Flow")
-        description.set("Flow Extension")
+        name.set("Kotlinx-Datetime")
+        description.set("Datetime Extension")
         inceptionYear.set("2024")
     }
 }
