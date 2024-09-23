@@ -16,6 +16,7 @@ repositories {
 For Single Platform
 ```groovy
  dependencies {
+     implementation("io.github.taetae98coding:kotlinx-datetime:latest-version")
      implementation("io.github.taetae98coding:kotlinx-flow:latest-version")
  }
 ```
@@ -26,6 +27,7 @@ kotlin {
     sourceSets {
         commonMain {
              dependencies {
+                 implementation("io.github.taetae98coding:kotlinx-datetime:latest-version")
                  implementation("io.github.taetae98coding:kotlinx-flow:latest-version")
              }
         }
