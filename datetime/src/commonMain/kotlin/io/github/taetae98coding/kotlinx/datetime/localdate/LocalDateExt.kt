@@ -24,3 +24,7 @@ public fun Long.toLocalDate(): LocalDate {
         .toLocalDateTime(TimeZone.UTC)
         .date
 }
+
+public fun ClosedRange<LocalDate>.isOverlap(range: ClosedRange<LocalDate>): Boolean {
+    return start <= range.endInclusive && endInclusive >= range.start
+}
